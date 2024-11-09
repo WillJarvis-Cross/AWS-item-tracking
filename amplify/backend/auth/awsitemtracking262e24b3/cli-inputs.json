@@ -1,10 +1,10 @@
 {
   "version": "1",
   "cognitoConfig": {
-    "identityPoolName": "awsitemtracking1ad2e1e3_identitypool_1ad2e1e3",
+    "identityPoolName": "awsitemtracking262e24b3_identitypool_262e24b3",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "awsite1ad2e1e3",
-    "userPoolName": "awsitemtracking1ad2e1e3_userpool_1ad2e1e3",
+    "resourceNameTruncated": "awsite262e24b3",
+    "userPoolName": "awsitemtracking262e24b3_userpool_262e24b3",
     "autoVerifiedAttributes": [
       "email"
     ],
@@ -20,7 +20,8 @@
     "passwordPolicyMinLength": 8,
     "passwordPolicyCharacters": [],
     "requiredAttributes": [
-      "email"
+      "email",
+      "phone_number"
     ],
     "aliasAttributes": [],
     "userpoolClientGenerateSecret": false,
@@ -31,39 +32,19 @@
     "userpoolClientReadAttributes": [
       "email"
     ],
-    "userpoolClientLambdaRole": "awsite1ad2e1e3_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "awsite262e24b3_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "1ad2e1e3",
-    "resourceName": "awsitemtracking1ad2e1e3",
+    "sharedId": "262e24b3",
+    "resourceName": "awsitemtracking262e24b3",
     "authSelections": "identityPoolAndUserPool",
     "useDefault": "default",
     "usernameAttributes": [
       "email"
     ],
     "triggers": {},
-    "userPoolGroupList": [
-      "awsitemtracking"
-    ],
+    "userPoolGroupList": [],
     "serviceName": "Cognito",
     "usernameCaseSensitive": false,
-    "useEnabledMfas": true,
-    "authRoleArn": {
-      "Fn::GetAtt": [
-        "AuthRole",
-        "Arn"
-      ]
-    },
-    "unauthRoleArn": {
-      "Fn::GetAtt": [
-        "UnauthRole",
-        "Arn"
-      ]
-    },
-    "breakCircularDependency": true,
-    "dependsOn": [],
-    "parentStack": {
-      "Ref": "AWS::StackId"
-    },
-    "permissions": []
+    "useEnabledMfas": true
   }
 }

@@ -1,6 +1,6 @@
 {
   "auth": {
-    "awsitemtracking1ad2e1e3": {
+    "awsitemtracking262e24b3": {
       "customAuth": false,
       "dependsOn": [],
       "frontendAuthConfig": {
@@ -13,7 +13,8 @@
           "passwordPolicyMinLength": 8
         },
         "signupAttributes": [
-          "EMAIL"
+          "EMAIL",
+          "PHONE_NUMBER"
         ],
         "socialProviders": [],
         "usernameAttributes": [
@@ -25,22 +26,6 @@
       },
       "providerPlugin": "awscloudformation",
       "service": "Cognito"
-    },
-    "userPoolGroups": {
-      "dependsOn": [
-        {
-          "attributes": [
-            "UserPoolId",
-            "AppClientIDWeb",
-            "AppClientID",
-            "IdentityPoolId"
-          ],
-          "category": "auth",
-          "resourceName": "awsitemtracking1ad2e1e3"
-        }
-      ],
-      "providerPlugin": "awscloudformation",
-      "service": "Cognito-UserPool-Groups"
     }
   }
 }
