@@ -1,0 +1,21 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-awsitemtracking-dev-dca4d-authRole",
+      "UnauthRoleArn": "arn:aws:iam::160885248633:role/amplify-awsitemtracking-dev-dca4d-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::160885248633:role/amplify-awsitemtracking-dev-dca4d-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-awsitemtracking-dev-dca4d-deployment",
+      "UnauthRoleName": "amplify-awsitemtracking-dev-dca4d-unauthRole",
+      "StackName": "amplify-awsitemtracking-dev-dca4d",
+      "StackId": "arn:aws:cloudformation:us-east-1:160885248633:stack/amplify-awsitemtracking-dev-dca4d/9a8c18b0-9ed5-11ef-8297-0affeec97801",
+      "AmplifyAppId": "d1qfk1vwkmpetl"
+    },
+    "categories": {
+      "auth": {
+        "awsitemtracking1ad2e1e3": {},
+        "userPoolGroups": {}
+      }
+    }
+  }
+}
