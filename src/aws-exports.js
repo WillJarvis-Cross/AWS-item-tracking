@@ -16,9 +16,10 @@ const awsmobile = {
         "EMAIL",
         "PHONE_NUMBER"
     ],
-    "aws_cognito_mfa_configuration": "OFF",
+    "aws_cognito_mfa_configuration": "OPTIONAL",
     "aws_cognito_mfa_types": [
-        "SMS"
+        "SMS",
+        "TOTP"
     ],
     "aws_cognito_password_protection_settings": {
         "passwordPolicyMinLength": 8,
